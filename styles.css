@@ -1,0 +1,125 @@
+/*
+Primary Colors
+    Dark Blue: #1B2A41 (Deep, rich navy)
+    Slate Grey: #4A4E69 (Cool, sophisticated grey)
+Accent Colors
+    Steel Grey: #6D6875 (Muted industrial tone)
+    Silver Grey: #B0B3C1 (Light, neutral contrast)
+Background & Highlight Colors
+    Soft White: #F8F9FA (Clean, modern background)
+    Muted Teal (Optional Accent): #5B8FB9 (Slight contrast to blue & grey)
+*/
+
+header {
+    display: flex;
+    background-color: #1B2A41; 
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+header .logo {
+    height: 100%;
+}
+
+header .logo img {
+    height: 100%;
+    width: auto; 
+    object-fit: cover;
+    object-position: center;
+
+}
+
+header .welcome-header {
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+header .welcome-message {
+    color: #F8F9FA;
+    font-size: 1.7rem;
+}
+
+header .navbar ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+header .navbar .nav-item {
+    margin: 10px; 
+    background-color: #F8F9FA;
+
+    font-size: 1.1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+header .navbar .nav-item:hover {
+    background-color: #6D6875 ;
+}
+
+header .navbar .nav-item a {
+    color:  #1B2A41; 
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.hero-image-container {
+    position: relative;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    min-height: 400px;
+    background-image: url("./resources/images/alexandra-pretschner-yQrpX6B1Qds-unsplash.jpg");
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1.hero-tagline {
+    width: 50%;
+    padding: 20px 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.5rem;
+    color: #F8F9FA;
+    background-color: rgba(74, 78, 105, 0.5);
+}
+
+.hero-image-container .attribution-text {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 0.75rem;
+    color: rgba(248, 249, 250, 0.7);
+}
+
+
+
+/*
+Use a parent container for more responsive sizing
+.hero-section .intro-container {
+    background-color: #4A4E69;
+    padding: 20px 10px 30px;
+}
+*/
+
+.hero-section .my-intro {
+    padding: 50px 100px 50px;
+    margin-top: 5px;
+    background-color: #4A4E69;
+    color:  #F8F9FA;
+    white-space: pre-line;
+    font-size: 1.2rem;
+}
+ 

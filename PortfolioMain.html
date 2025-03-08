@@ -1,76 +1,137 @@
 <!DOCTYPE html>
+<html>
 <head>
-<!-- Link to the style page -->
-<!-- Link to the javascript file -->
-
-<!-- Link to the text font sources -->
-
-<title>Alex Bush Portfolio</title>
-
-
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to the text font sources -->
+    <!-- Link to the javascript file -->
+    <title>Alex Bush ~ Portfolio</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <!-- Include the selected options with links to the relevant sections of the page -->
-        </nav>
+        <div class="logo">
+            <img src="./resources/images/Logo.png">
+        </div>
 
+        <div class="welcome-header">
+            <p class="welcome-message">Alex Bush  ~  Portfolio</p>
+        </div>
+
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#">Projects</a></li>
+                <li class="nav-item"><a href="#">Businesses</a></li>
+                <li class="nav-item"><a href="#">Articles & Analysis</a></li>
+                <li class="nav-item"><a href="#">Photography</a></li>
+                <li class="nav-item"><a href="#">Goals</a></li>
+            </ul>
+        </nav>
     </header>
 
 
-    <Section id="hero-section">
-        <h1>
-            <!-- Put in the hero title here-->
-        </h1>
-        <!-- Include intro text here -->
-        <!-- A background with mountain scenery -->
+    <Section class="hero-section">
+        <div class="hero-image-container">
+            <h1 class="hero-tagline">Alex Bush - Portfolio</h1>
+            <div class="attribution-text">
+                Photo by <a href="https://unsplash.com/@alexandrapretschner?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alexandra Pretschner</a> on <a href="https://unsplash.com/photos/green-pine-trees-near-lake-and-snow-covered-mountain-during-daytime-yQrpX6B1Qds?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </div>
+        </div>
+        <div class="intro-container">
+        <p class="my-intro">Hi, I'm Alex and this is my portfolio site.  
+            
+            I'm a Mechanical and Aerospace Engineer, turned Data Scientist, with a love of all things science, mathematics, and technology. 
+            
+            This is a collection of things I'm interested in and/or completely obsessed with (and maybe a few I'm less than emphatic about, that I think I should do anyway..)</p>
+        </div>
     </Section>
 
 
-    
+    <!--change the titles to out here -->
+    <h2 class="gallery-title">Projects</h2>
     <section id="projects" class="gallery-section">
-        <h2>Projects</h2>
-        <!--Include the list of items here for flexbox style -->
+
+        <div class="placeholder-flag">Coming Soon..</div>
+        
     </section>
 
-    <section id="projects" class="gallery-section">
-        <h2>Projects</h2>
-        <!--Include the list of items here for flexbox style -->
-    </section>
-
-
-    <section id="businesses" class="gallery-section">
-        <h2>Businesses</h2>
-        <!--Include the list of items here for flexbox style -->
-    </section>
-
-
+    <h2 class="gallery-title">Analysis and Articles</h2>
     <section id="analysis_articles" class="gallery-section">
-        <h2>Analysis and Articles</h2>
-        <!--Include the list of items here for flexbox style -->
+        <article class="project-item">
+            <h3>Short Term Electricity Load Forecasting</h3>
+            <p>A project investigating forecasting methods (SARIMA, SARIMAX), focused on the NSW market with a particular emphasis on the increasing market saturation of residential rooftop solar.</p>
+        </article>
+
+        <article class="project-item">
+            <h3>Trade Data Visualisation - Australian Bureau of Statistics (ABS) Trade Data</h3>
+            <p>Coming Soon - Interactive visualisation focussed on using ABS trade data to help people understand what Australia sells and what it buys.</p>
+        </article>
+
+        <div class="placeholder-flag">More to come..</div>
     </section>
 
+    <h2 class="gallery-title">Businesses</h2>
+    <section id="businesses" class="gallery-section">
+        <article class="project-item">
+            <h3>TLDC</h3>
+            <h4 class="project-status">Status: building in stealth</h4>
+            <p>Coming Soon...</p>
+        </article>
 
+        <article class="project-item">
+            <h3>GSC</h3>
+            <h4 class="project-status">Status: building in stealth</h4>
+            <p>Coming Soon...</p>
+        </article>
+        
+        <article class="project-item">
+            <h3>STM</h3>
+            <h4 class="project-status">Status: building in stealth</h4>
+            <p>Coming Soon...</p>
+        </article>
+                
+        <div class="placeholder-flag">More to come..</div>
+    </section>
+
+    <h2 class="gallery-title">Photography</h2>
     <section id="photography" class="gallery-section">
-        <h2>Photography</h2>
-        <!--Include the list of items here for flexbox style -->
+        <div class="placeholder-flag">Coming soon.</div>
     </section>
 
+    <h2 class="gallery-title">Goals</h2>
     <section id="goals" class="gallery-section">
-        <h2>Goals</h2>
-        <!--Include the list of items here for flexbox style -->
+        <article class="project-item">
+            <h3>Project Health</h3>
+            <h4 class="goal-status">In Progress</h4>
+            <p class="goal-target">Weight: 85kg</h4>
+            <p>Get back to my healthiest weight, through discipline, healthy eating, and bringing the joy of physical activity back to my life.</p>
+        </article>
+
+        <article class="project-item">
+            <h3>Project Art</h3>
+            <h4 class="goal-status">Starting Soon</h4>
+            <p class="goal-target">100 photos in 100 days</h4>
+            <p>Take a photo every day for 100 days, see if some of them aren't shit</p>
+        </article>
+
+        <!-- Javascript opportunity Have my goals load from a file - that i periodically update? -->
     </section>
 
 
+    <footer>
+        <nav class="navbar">
+            <p><a href="#">Projects</a></p>
+            <p><a href="#">Businesses</a></p>
+            <p><a href="#">Articles & Analsis</a></p>
+            <p><a href="#">Photography</a></p>
+            <p><a href="#">Goals</a></p>
+        </nav>
+
+        <div class="contact-me">
+            <a href="contact-form.html">Contact Me</a>
+        </div>
+    
+    </footer>
+    
 </body>
 
-
-<footer>
-    <nav> 
-
-    </nav>
-    <!-- Include a copyright or something.. -->
-
-</footer>
-
+</html>
