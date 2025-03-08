@@ -10,6 +10,10 @@ Background & Highlight Colors
     Muted Teal (Optional Accent): #5B8FB9 (Slight contrast to blue & grey)
 */
 
+body {
+    font-family: 'Open Sans';
+}
+
 header {
     display: flex;
     background-color: #1B2A41; 
@@ -28,7 +32,6 @@ header .logo img {
     width: auto; 
     object-fit: cover;
     object-position: center;
-
 }
 
 header .welcome-header {
@@ -40,6 +43,7 @@ header .welcome-header {
 header .welcome-message {
     color: #F8F9FA;
     font-size: 1.7rem;
+    font-family: 'Abril Fatface';
 }
 
 header .navbar ul {
@@ -52,7 +56,7 @@ header .navbar .nav-item {
     background-color: #F8F9FA;
 
     font-size: 1.1rem;
-    border: 2px solid black;
+    border: 2px solid #B0B3C1;
     border-radius: 5px;
     padding: 7px;
 }
@@ -66,7 +70,6 @@ header .navbar .nav-item a {
     font-weight: 700;
     text-decoration: none;
 }
-
 
 .hero-image-container {
     position: relative;
@@ -90,8 +93,9 @@ h1.hero-tagline {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Abril Fatface';
 
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #F8F9FA;
     background-color: rgba(74, 78, 105, 0.5);
 }
@@ -103,8 +107,6 @@ h1.hero-tagline {
     font-size: 0.75rem;
     color: rgba(248, 249, 250, 0.7);
 }
-
-
 
 /*
 Use a parent container for more responsive sizing
@@ -120,6 +122,66 @@ Use a parent container for more responsive sizing
     background-color: #4A4E69;
     color:  #F8F9FA;
     white-space: pre-line;
+    font-family: 'Lora';
     font-size: 1.2rem;
 }
- 
+
+.gallery-title {
+    width: 100%;
+    padding: 10px 30px 10px;
+    margin-top: 40px;
+    color:  #F8F9FA;
+    background-color: #1B2A41; 
+    font-size: 1.5rem;
+    margin: 0px 0px;
+}
+
+.gallery-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 10px 0px 10px;
+}
+
+.gallery-section .project-item {
+    width: 30%;
+    padding: 10px;
+    color: #F8F9FA;
+    background-color: #4A4E69;
+    /* background-color: rgba(109, 104, 117, 0.8); */
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.gallery-section .project-item h3{
+    margin-top: 0px;
+}
+
+.gallery-section .project-item h3 a{
+    color: #F8F9FA;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    color:  #F8F9FA;
+    background-color: #1B2A41; 
+    width: 100%;
+    height: 50px;
+    padding: 5px 30px 5px;
+}
+
+footer .contact-me {
+    border: 3px solid #B0B3C1;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #5B8FB9;
+}
+
+footer a {
+    color: #F8F9FA;
+    text-decoration: none;
+    font-weight: 700;
+}
+
