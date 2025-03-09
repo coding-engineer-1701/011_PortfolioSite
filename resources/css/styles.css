@@ -84,7 +84,7 @@ header .navbar .nav-item a {
 
     width: 100%;
     min-height: 400px;
-    background-image: url("../images/alexandra-pretschner-yQrpX6B1Qds-unsplash.jpg");
+    background-image: url("./resources/images/alexandra-pretschner-yQrpX6B1Qds-unsplash.jpg");
     background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -237,6 +237,7 @@ footer a {
     border-radius: 5px;
 
     text-align: center;
+
 }
 
 .contact-me-container p {
